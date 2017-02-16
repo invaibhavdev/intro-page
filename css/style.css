@@ -43,6 +43,7 @@ a {
 	color: #fff;
 	text-decoration: none;
 	padding-bottom: 3px;
+	outline: none;
 }
 a:hover {
 	border-bottom: 1px dotted #fff;
@@ -50,14 +51,16 @@ a:hover {
 
 
 body {
-	 background: #db3744;
-	 height: 100vh;
+	background:#333;
+	height: 100vh;
 	color: #fff;
 	font: 300 16px/22px "Lato", "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 }
 
-
+.wrapper {
+	background-color: #db3744;
+}
 .grid,
 .container {
 	width: 100%;
@@ -125,7 +128,12 @@ h3 {
 h4 {
 	font-size: 24px;
 }
-
+.wrapper {
+	background: url('../images/new.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .nav {
 	/* text-align: center; */
 	display: inline-block;
@@ -174,8 +182,7 @@ h4 {
 .primary-header {
 	padding-top: 15px;
 	padding-bottom: 15px;	
-	background: #db3744;
-	background-attachment: fixed;
+	
 }
 
 .top-bar {
@@ -251,9 +258,12 @@ h4 {
 	width: 100%;
 }
 #projects {
+	
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #db3744;
+	background: url('../images/bridge.jpg');
+	background-attachment: fixed;
+	background-size: cover;
 }
 #projects h2 {
 	color: #fff;
@@ -269,6 +279,7 @@ h4 {
 .primary-footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: #fff;
 }
 .primary-footer p{
 	margin-bottom: 15px;
